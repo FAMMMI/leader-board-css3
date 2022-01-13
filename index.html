@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader-board</title>
+    <link rel="shortcut icon" href="images/icons/star.png" type="image/x-icon">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/569a53ec78.js" crossorigin="anonymous"></script>
     <!-- styelsheet -->
@@ -14,8 +15,27 @@
 
 <body>
     <!-- header-start -->
-    <header>
-
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a class="logo-link" href="index.html">
+                    <img src="images/icons/logo.png" alt="Logo">
+                    <span>Idea</span>
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Works</a></li>
+                    <div class="last-child">
+                        <a href="#">
+                            <img src="images/icons/profile.png" alt="" class="profile">
+                        </a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!-- header-end -->
     <main>
@@ -177,6 +197,21 @@
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-part1">
+                <img src="images/icons/logo.png" alt="Logo">
+            </div>
+            <div class="footer-part2">
+                <p>&copy; All rights reserved <a href="https://web.programming-hero.com">Programming Hero</a></p>
+            </div>
+            <div class="footer-part3 social-icon">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
